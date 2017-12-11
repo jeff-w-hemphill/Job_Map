@@ -11,7 +11,7 @@ const SLIDE_DATA = [
 
 class WelcomeScreen extends Component {
 	onSlidesComplete = () => {
-		this.props.navigation.navigate('map');
+			this.props.navigation.navigate('map');
 	}
 
 	render() {
