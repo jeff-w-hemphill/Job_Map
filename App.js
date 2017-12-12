@@ -16,7 +16,7 @@ export default class App extends React.Component {
   render() {
     const MainNavigator = TabNavigator({
       welcome: { screen: WelcomeScreen },
-      auth: { screen: AuthScreen },
+      //auth: { screen: AuthScreen },
       map: { screen: MapScreen },
       main: {
         screen: TabNavigator({
@@ -36,7 +36,7 @@ export default class App extends React.Component {
         lazy: true,
         animationEnabled: false,
         navigationOptions: { 
-          tabBarVisible: false 
+        //tabBarVisible: true
         }
       });
 
